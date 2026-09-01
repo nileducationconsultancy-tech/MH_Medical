@@ -7,20 +7,29 @@
   
   <!-- Primary SEO Meta Tags -->
   <title>MH Medical Centre, Maujpur Delhi | Medical Centre &amp; Doctor Consultation</title>
-  <meta name="description" content="MH Medical Centre in Maujpur, Delhi 110053. General physician consultation, health checkups, clinic location, photos, and direct appointment requests via WhatsApp.">
-  <meta name="keywords" content="MH Medical Centre, doctor in Maujpur, medical centre Maujpur Delhi, doctor near Maujpur metro, clinic in Maujpur, doctor in Shahdara, Delhi 110053">
+  <meta name="description" content="MH Medical Centre in Maujpur, Delhi 110053. General physician consultation, health checkups, clinic location, photos, and direct appointment requests via WhatsApp (+91 98113 85441).">
+  <meta name="keywords" content="MH Medical Centre, doctor in Maujpur, medical centre Maujpur Delhi, doctor near Maujpur metro, clinic in Maujpur, doctor in Shahdara, Delhi 110053, Dr Feroz Khan Maujpur">
   <meta name="author" content="MH Medical Centre">
-  <meta name="robots" content="index, follow">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <link rel="canonical" href="https://mhmedicalcentre.in/">
   <link rel="icon" type="image/png" href="assets/images/logo.png">
   <link rel="apple-touch-icon" href="assets/images/logo.png">
 
+  <!-- Local SEO & GEO Meta Tags -->
+  <meta name="geo.region" content="IN-DL">
+  <meta name="geo.placename" content="Maujpur, Delhi">
+  <meta name="geo.position" content="28.6879468;77.2728978">
+  <meta name="ICBM" content="28.6879468, 77.2728978">
+
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="business.business">
+  <meta property="og:site_name" content="MH Medical Centre">
   <meta property="og:title" content="MH Medical Centre, Maujpur Delhi | Medical Centre &amp; Doctor Consultation">
   <meta property="og:description" content="Accessible medical consultation and primary healthcare in Dr. Ambedkar Basti, Maujpur, Delhi – 110053.">
   <meta property="og:url" content="https://mhmedicalcentre.in/">
   <meta property="og:image" content="https://mhmedicalcentre.in/assets/images/Clinic_Entrance.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta property="business:contact_data:street_address" content="N-53, Gali No. 5, Dr. Ambedkar Basti">
   <meta property="business:contact_data:locality" content="Maujpur">
   <meta property="business:contact_data:region" content="Delhi">
@@ -43,11 +52,19 @@
   <link rel="stylesheet" href="css/components.css">
   <link rel="stylesheet" href="css/responsive.css">
 
-  <!-- Schema.org JSON-LD Structured Data -->
+  <!-- Schema.org JSON-LD Structured Data Graph -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://mhmedicalcentre.in/#website",
+        "url": "https://mhmedicalcentre.in/",
+        "name": "MH Medical Centre",
+        "description": "Accessible medical consultation and primary care in Maujpur, Delhi 110053",
+        "inLanguage": ["en", "hi"]
+      },
       {
         "@type": "MedicalClinic",
         "@id": "https://mhmedicalcentre.in/#clinic",
@@ -57,7 +74,9 @@
         "logo": "https://mhmedicalcentre.in/assets/images/logo.png",
         "image": "https://mhmedicalcentre.in/assets/images/Clinic_Entrance.png",
         "telephone": "+919811385441",
-        "description": "MH Medical Centre provides accessible physician consultation and primary health services in Maujpur, Delhi 110053.",
+        "priceRange": "$$",
+        "isAcceptingNewPatients": true,
+        "description": "MH Medical Centre provides accessible physician consultation, fever treatment, vitals checkup, and primary health services in Maujpur, Delhi 110053.",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "N-53, Gali No. 5, Dr. Ambedkar Basti",
@@ -72,6 +91,28 @@
           "longitude": 77.2728978
         },
         "hasMap": "https://www.google.com/maps/place/MH+MEDICAL+CENTRE+N+53+GALI+NO+5+MAUJPR/@28.6879468,77.2703229,17z/",
+        "areaServed": [
+          { "@type": "AdministrativeArea", "name": "Maujpur" },
+          { "@type": "AdministrativeArea", "name": "Shahdara" },
+          { "@type": "AdministrativeArea", "name": "Seelampur" },
+          { "@type": "AdministrativeArea", "name": "Babarpur" },
+          { "@type": "AdministrativeArea", "name": "Yamuna Vihar" },
+          { "@type": "AdministrativeArea", "name": "East Delhi" }
+        ],
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "opens": "09:30",
+            "closes": "13:30"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "opens": "17:30",
+            "closes": "21:30"
+          }
+        ],
         "medicalSpecialty": "PrimaryCare",
         "availableService": [
           {
@@ -81,6 +122,10 @@
           {
             "@type": "MedicalProcedure",
             "name": "Health Evaluation & Vitals Check"
+          },
+          {
+            "@type": "MedicalProcedure",
+            "name": "Follow-Up & Treatment Review"
           },
           {
             "@type": "MedicalProcedure",
@@ -96,9 +141,65 @@
         "image": "https://mhmedicalcentre.in/assets/images/drImage.png",
         "jobTitle": "Consultant Physician",
         "description": "Consultant Physician providing medical consultation and primary care at MH Medical Centre.",
+        "medicalSpecialty": "PrimaryCare",
+        "telephone": "+919811385441",
         "worksFor": {
           "@id": "https://mhmedicalcentre.in/#clinic"
         }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://mhmedicalcentre.in/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Where is MH Medical Centre located?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "MH Medical Centre is located at N-53, Gali No. 5, Dr. Ambedkar Basti, Maujpur, Delhi – 110053, near Maujpur Metro Station."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How can I book an appointment?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You can fill out the simple appointment enquiry form on this website. The request will open directly in WhatsApp to +91 98113 85441 where clinic staff will confirm availability."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the clinic phone number?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You can reach MH Medical Centre directly at +91 98113 85441 during clinic hours."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I visit without an appointment?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Please contact the clinic directly via phone (+91 98113 85441) or WhatsApp to confirm doctor availability."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are the clinic timings?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Standard clinic timings are Monday to Saturday: Morning 09:30 AM – 01:30 PM and Evening 05:30 PM – 09:30 PM."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I get directions to the clinic?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Click on 'Get Directions' to open the verified Google Maps listing with turn-by-turn navigation to N-53, Gali No. 5, Maujpur."
+            }
+          }
+        ]
       }
     ]
   }

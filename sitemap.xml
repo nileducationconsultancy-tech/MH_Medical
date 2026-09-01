@@ -1,9 +1,51 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://mhmedicalcentre.in/</loc>
     <lastmod>2026-09-01</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    
+    <!-- Image Metadata -->
+    <image:image>
+      <image:loc>https://mhmedicalcentre.in/assets/images/Clinic_Entrance.png</image:loc>
+      <image:title>MH Medical Centre Clinic Entrance and Signboard in Maujpur Delhi</image:title>
+      <image:caption>N-53, Gali No. 5, Dr. Ambedkar Basti, Maujpur, Delhi 110053</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mhmedicalcentre.in/assets/images/drImage.png</image:loc>
+      <image:title>Dr. Feroz Khan - Consultant Physician at MH Medical Centre</image:title>
+      <image:caption>MBBS Consultant Physician in Maujpur Delhi</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mhmedicalcentre.in/assets/images/waiting%20area.png</image:loc>
+      <image:title>MH Medical Centre Patient Reception and Waiting Lounge</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://mhmedicalcentre.in/assets/images/Doctor%20Consultation%20Room.png</image:loc>
+      <image:title>MH Medical Centre Doctor Consultation and Examination Room</image:title>
+    </image:image>
+
+    <!-- Video 1: Clinic Walkthrough -->
+    <video:video>
+      <video:thumbnail_loc>https://mhmedicalcentre.in/assets/images/mh_tour_poster.jpg</video:thumbnail_loc>
+      <video:title>MH Medical Centre — Clinic Tour &amp; Walkthrough</video:title>
+      <video:description>Complete walkthrough of MH Medical Centre entrance, reception, waiting lounge, and patient consultation environment in Maujpur, Delhi.</video:description>
+      <video:content_loc>https://mhmedicalcentre.in/assets/images/MH_medical_video.mp4</video:content_loc>
+      <video:player_loc>https://mhmedicalcentre.in/#gallery</video:player_loc>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+
+    <!-- Video 2: Facility Overview -->
+    <video:video>
+      <video:thumbnail_loc>https://mhmedicalcentre.in/assets/images/mh_render_poster.jpg</video:thumbnail_loc>
+      <video:title>MH Medical Centre — 3D Architecture &amp; Facility Tour</video:title>
+      <video:description>3D architectural walkthrough and clinical facility layout of MH Medical Centre Maujpur.</video:description>
+      <video:content_loc>https://mhmedicalcentre.in/assets/images/MH%20medical%20render%203.mp4</video:content_loc>
+      <video:player_loc>https://mhmedicalcentre.in/#gallery</video:player_loc>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
   </url>
 </urlset>
