@@ -1,19 +1,5 @@
-﻿{
+{
   "name": "mh-medical-centre",
   "version": "1.0.0",
-  "description": "MH Medical Centre official responsive website with WhatsApp booking and Local SEO",
-  "private": true,
-  "scripts": {
-    "start": "serve .",
-    "build": "echo 'Static build ready'"
-  },
-  "keywords": [
-    "mh-medical-centre",
-    "maujpur",
-    "doctor-consultation",
-    "delhi-110053",
-    "medical-clinic"
-  ],
-  "author": "MH Medical Centre",
-  "license": "ISC"
+  "private": true
 }
