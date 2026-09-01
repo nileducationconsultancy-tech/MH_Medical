@@ -281,7 +281,6 @@ Preferred Time: ${timeVal}
 Reason for Visit: ${reasonVal}
 Additional Notes: ${notesVal}
 
-Location: N-53, Gali No. 5, Dr. Ambedkar Basti, Maujpur, Delhi – 110053.
 Please confirm appointment availability.
 Thank you.`;
 
