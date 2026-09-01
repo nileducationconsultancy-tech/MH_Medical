@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cRoom" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="460" fill="url(#cRoom)" />
+  <rect y="460" width="800" height="140" fill="#e2e8f0" />
+  <line x1="0" y1="460" x2="800" y2="460" stroke="#cbd5e1" stroke-width="3" />
+  
+  <!-- Examination Bed / Couch -->
+  <rect x="520" y="320" width="220" height="80" rx="8" fill="#ffffff" stroke="#0284c7" stroke-width="3" />
+  <rect x="520" y="320" width="60" height="80" rx="8" fill="#e0f2fe" stroke="#0284c7" stroke-width="2" />
+  <rect x="540" y="400" width="15" height="60" fill="#64748b" />
+  <rect x="700" y="400" width="15" height="60" fill="#64748b" />
+
+  <!-- Doctor Consultation Desk -->
+  <rect x="80" y="340" width="340" height="120" rx="6" fill="#ffffff" stroke="#94a3b8" stroke-width="3" />
+  <rect x="120" y="270" width="60" height="70" rx="4" fill="#0f766e" fill-opacity="0.2" stroke="#0f766e" stroke-width="2" />
+  
+  <!-- Blood Pressure Instrument & Prescription Pad -->
+  <rect x="220" y="315" width="45" height="25" rx="3" fill="#334155" />
+  <rect x="290" y="320" width="40" height="20" rx="2" fill="#ffffff" stroke="#0f766e" stroke-width="1.5" />
+  <line x1="295" y1="326" x2="325" y2="326" stroke="#0f766e" stroke-width="1.5" />
+  <line x1="295" y1="332" x2="315" y2="332" stroke="#0f766e" stroke-width="1.5" />
+
+  <!-- Chairs -->
+  <rect x="140" y="370" width="60" height="80" rx="6" fill="#0f766e" fill-opacity="0.15" stroke="#0f766e" stroke-width="2" />
+  <rect x="360" y="370" width="60" height="80" rx="6" fill="#0284c7" fill-opacity="0.15" stroke="#0284c7" stroke-width="2" />
+
+  <!-- Replacement Tag -->
+  <rect x="250" y="520" width="300" height="36" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
+  <text x="400" y="543" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#475569">
+    [ Genuine Consultation Room Photo Placeholder ]
+  </text>
+</svg>

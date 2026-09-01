@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0f9ff"/>
+      <stop offset="100%" stop-color="#e0f2fe"/>
+    </linearGradient>
+    <linearGradient id="bldgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f1f5f9"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#skyGrad)" />
+  
+  <!-- Ground -->
+  <rect y="480" width="800" height="120" fill="#e2e8f0" />
+  <line x1="0" y1="480" x2="800" y2="480" stroke="#cbd5e1" stroke-width="4" />
+  
+  <!-- Clinic Building -->
+  <rect x="160" y="140" width="480" height="340" rx="8" fill="url(#bldgGrad)" stroke="#94a3b8" stroke-width="3" />
+  
+  <!-- Main Entrance / Glass Door -->
+  <rect x="330" y="320" width="140" height="160" rx="4" fill="#38bdf8" fill-opacity="0.2" stroke="#0284c7" stroke-width="3" />
+  <line x1="400" y1="320" x2="400" y2="480" stroke="#0284c7" stroke-width="2" />
+  <circle cx="390" cy="400" r="4" fill="#0f766e" />
+  <circle cx="410" cy="400" r="4" fill="#0f766e" />
+
+  <!-- Clinic Signboard -->
+  <rect x="200" y="170" width="400" height="80" rx="8" fill="#0f766e" stroke="#115e59" stroke-width="2" />
+  <!-- Medical Cross Icon -->
+  <rect x="225" y="195" width="30" height="10" rx="2" fill="#ffffff" />
+  <rect x="235" y="185" width="10" height="30" rx="2" fill="#ffffff" />
+  
+  <text x="270" y="210" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">MH MEDICAL CENTRE</text>
+  <text x="270" y="235" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#ccfbf1">N-53, Gali No. 5, Maujpur, Delhi - 110053</text>
+  
+  <!-- Clinic Windows -->
+  <rect x="200" y="280" width="90" height="70" rx="4" fill="#e0f2fe" stroke="#38bdf8" stroke-width="2" />
+  <line x1="245" y1="280" x2="245" y2="350" stroke="#38bdf8" stroke-width="1.5" />
+  <line x1="200" y1="315" x2="290" y2="315" stroke="#38bdf8" stroke-width="1.5" />
+  
+  <rect x="510" y="280" width="90" height="70" rx="4" fill="#e0f2fe" stroke="#38bdf8" stroke-width="2" />
+  <line x1="555" y1="280" x2="555" y2="350" stroke="#38bdf8" stroke-width="1.5" />
+  <line x1="510" y1="315" x2="600" y2="315" stroke="#38bdf8" stroke-width="1.5" />
+  
+  <!-- Plant Pots -->
+  <rect x="290" y="440" width="25" height="40" rx="3" fill="#64748b" />
+  <circle cx="302" cy="430" r="18" fill="#16a34a" />
+  
+  <rect x="485" y="440" width="25" height="40" rx="3" fill="#64748b" />
+  <circle cx="497" cy="430" r="18" fill="#16a34a" />
+
+  <!-- Verification / Replacement Tag -->
+  <rect x="240" y="520" width="320" height="40" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
+  <text x="400" y="545" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#475569">
+    [ Genuine Clinic Exterior Image Placeholder ]
+  </text>
+</svg>

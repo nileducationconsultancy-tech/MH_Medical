@@ -1,0 +1,79 @@
+/**
+ * MH MEDICAL CENTRE - CSS DESIGN TOKENS & VARIABLES
+ */
+
+:root {
+  /* Primary Healthcare Palette (Calm Blue, Teal & Crisp Clean Surfaces) */
+  --primary: #0f766e;          /* Deep Medical Teal */
+  --primary-hover: #115e59;
+  --primary-light: #f0fdfa;
+  --primary-border: #ccfbf1;
+
+  --secondary: #0284c7;        /* Medical Sky Blue */
+  --secondary-hover: #0369a1;
+  --secondary-light: #f0f9ff;
+  --secondary-border: #bae6fd;
+
+  --accent-teal: #14b8a6;
+  --accent-green: #16a34a;      /* WhatsApp & Verified indicator */
+  --accent-green-hover: #15803d;
+  --accent-green-light: #f0fdf4;
+
+  /* Neutrals & Dark Contrast (WCAG AAA Compliant) */
+  --text-main: #0f172a;        /* Deep Slate */
+  --text-muted: #475569;       /* Medium Slate */
+  --text-light: #64748b;       /* Muted Slate */
+  --text-white: #ffffff;
+
+  /* Surfaces & Backgrounds */
+  --bg-page: #ffffff;
+  --bg-surface: #f8fafc;
+  --bg-surface-subtle: #f1f5f9;
+  --bg-card: #ffffff;
+
+  /* Borders & Dividers */
+  --border-subtle: #e2e8f0;
+  --border-card: #cbd5e1;
+  --border-focus: #0284c7;
+
+  /* Shadows (Soft & Non-distracting) */
+  --shadow-xs: 0 1px 2px 0 rgba(15, 23, 42, 0.05);
+  --shadow-sm: 0 1px 3px 0 rgba(15, 23, 42, 0.08), 0 1px 2px -1px rgba(15, 23, 42, 0.06);
+  --shadow-md: 0 4px 6px -1px rgba(15, 23, 42, 0.08), 0 2px 4px -2px rgba(15, 23, 42, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(15, 23, 42, 0.08), 0 4px 6px -4px rgba(15, 23, 42, 0.05);
+  --shadow-hover: 0 12px 20px -3px rgba(15, 118, 110, 0.12), 0 4px 8px -2px rgba(15, 118, 110, 0.08);
+
+  /* Typography */
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+  --font-size-xs: 0.75rem;     /* 12px */
+  --font-size-sm: 0.875rem;    /* 14px */
+  --font-size-base: 1rem;      /* 16px */
+  --font-size-lg: 1.125rem;    /* 18px */
+  --font-size-xl: 1.25rem;     /* 20px */
+  --font-size-2xl: 1.5rem;     /* 24px */
+  --font-size-3xl: 1.875rem;   /* 30px */
+  --font-size-4xl: 2.25rem;    /* 36px */
+  --font-size-5xl: 3rem;       /* 48px */
+
+  /* Radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-full: 9999px;
+
+  /* Spacing */
+  --container-max-w: 1200px;
+  --container-pad: 1.25rem;
+  --section-pad-y: 4.5rem;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 220ms ease;
+
+  /* Z-Index Hierarchy */
+  --z-header: 1000;
+  --z-floating: 900;
+  --z-bottom-bar: 950;
+  --z-modal: 1100;
+}
