@@ -220,7 +220,17 @@
   }
 
   .gallery-img-wrap {
-    height: 220px;
+    width: 100%;
+    aspect-ratio: 16 / 11;
+    height: auto;
+  }
+
+  .gallery-img-wrap img,
+  .gallery-img-wrap video {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    display: block !important;
   }
 
   /* Video Grid Responsive */
@@ -229,10 +239,16 @@
     gap: 1.5rem;
   }
 
-  .video-media-wrap video {
+  .video-media-wrap {
     width: 100%;
     aspect-ratio: 16 / 9;
-    object-fit: cover;
+  }
+
+  .video-media-wrap video {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    display: block !important;
   }
 
   /* Location Card Mobile */
